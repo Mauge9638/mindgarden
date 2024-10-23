@@ -3,7 +3,9 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <RouterView />
+  <div class="bg-blue-500">
+    <RouterView />
+  </div>
 </template>
 
 <style scoped></style>
